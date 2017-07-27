@@ -6,11 +6,11 @@ routeApp.config( ($routeProvider) => {
 	$routeProvider
 	.when("/hwy1", {
 		templateUrl: "partials/highway1.html",
-		controller: "hw1Ctrl"
+		controller: "Hwy1Controller"
 	})
 	.when("/hwy2", {
 		templateUrl: "partials/highway2.html",
-		controller: "hw2Ctrl"
+		controller: "Hwy2Controller"
 	})
 	.otherwise("/")
 });
